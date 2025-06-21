@@ -1,76 +1,81 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Desert Hybrid Health</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <div class="container">
+
+  <header class="site-header">
+    <nav>
       <h1>Desert Hybrid Health</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
+
   <section class="hero">
-    <div class="container">
-      <h2>Your Personalized Path to Health & Fitness</h2>
-      <p>Personal training, physician care, and nutrition guidance—all online.</p>
-      <a href="#contact" class="cta-btn">Get Started</a>
+    <div class="hero-content">
+      <h2>Optimize Your Health, Naturally</h2>
+      <p>Personal training. Nutrition coaching. Physician-led lifestyle care — all in one place, all online.</p>
+      <a href="contact.html" class="cta-button">Join the Waitlist</a>
     </div>
   </section>
-  <section id="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>
-        At Desert Hybrid Health, we combine medical expertise with fitness coaching and nutrition guidance. Our mission: help you look, feel, and perform at your best. Start your wellness journey with our expert team—online or in-person soon!
-      </p>
-    </div>
-  </section>
-  <section id="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <h3>Personal Training</h3>
-          <p>Custom fitness plans, virtual coaching, and progress tracking—designed to fit your goals and schedule.</p>
-        </div>
-        <div class="service-card">
-          <h3>Physician Care</h3>
-          <p>Online consultations with experienced healthcare providers focused on your holistic wellbeing.</p>
-        </div>
-        <div class="service-card">
-          <h3>Nutrition Guidance</h3>
-          <p>Personalized nutrition plans and ongoing support for sustainable, healthy eating habits.</p>
-        </div>
+
+  <section class="how-it-works">
+    <h3>How It Works</h3>
+    <div class="steps">
+      <div>
+        <h4>1. Tell us about yourself</h4>
+        <p>Fill out a short intake form so we can understand your goals and needs.</p>
+      </div>
+      <div>
+        <h4>2. Get matched</h4>
+        <p>We pair you with a physician + coach duo based on your goals.</p>
+      </div>
+      <div>
+        <h4>3. Start your plan</h4>
+        <p>Receive ongoing guidance, coaching, and support — 100% online.</p>
       </div>
     </div>
   </section>
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <form id="contactForm">
-        <label for="name">Name:</label>
-        <input type="text" id="name" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" required>
-        <label for="message">Message:</label>
-        <textarea id="message" rows="5" required></textarea>
-        <button type="submit">Send</button>
-        <p id="formResponse" class="form-response"></p>
-      </form>
+
+  <section class="pillars">
+    <h3>Our 3 Core Pillars</h3>
+    <div class="pillar-list">
+      <div>
+        <h4>Training</h4>
+        <p>Customized programs built by certified coaches to meet your lifestyle and goals.</p>
+      </div>
+      <div>
+        <h4>Nutrition</h4>
+        <p>Science-based nutrition plans — no fads, no fluff. Just what works.</p>
+      </div>
+      <div>
+        <h4>Medical Guidance</h4>
+        <p>Work with a board-certified physician who prioritizes movement, food, and recovery before prescriptions.</p>
+      </div>
     </div>
   </section>
+
+  <section class="about-cta">
+    <h3>Why Desert Hybrid Health?</h3>
+    <p>We're building the future of healthcare — one where movement, nutrition, and root-cause medicine work together to help you feel and perform your best.</p>
+    <a href="about.html" class="cta-button">Meet the Team</a>
+  </section>
+
   <footer>
-    <div class="container">
-      <p>&copy; 2025 Desert Hybrid Health. All rights reserved.</p>
-    </div>
+    <p>© 2025 Desert Hybrid Health. All rights reserved.</p>
+    <p><a href="contact.html">Join the Waitlist</a></p>
   </footer>
-  <script src="script.js"></script>
+
 </body>
 </html>
